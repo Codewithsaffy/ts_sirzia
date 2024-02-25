@@ -1,8 +1,9 @@
 {
-  "name": "step05_objects",
+  "name": "step00_helloworld",
   "version": "1.0.0",
   "description": "[For the latest docs](https://www.typescriptlang.org/docs/)",
-  "main": "app.js",
+  "type": "module",
+  "main": "./app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^5.3.0"
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
   }
 }

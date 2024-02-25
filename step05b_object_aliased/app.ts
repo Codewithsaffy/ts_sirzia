@@ -1,7 +1,6 @@
 // // anonymous
 
 import { colorNames } from "chalk";
-
 // let teacher : {name: string, exp: number} = {
 //     name: "Zeeshan",
 //     exp: 10
@@ -31,7 +30,7 @@ import { colorNames } from "chalk";
 // let storeManager: Manager = {
 //     name: "Bilal"
 // }
-//* Type in ts 
+// //* Type in ts 
 
 type studClass = {
     name: string;

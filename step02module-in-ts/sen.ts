@@ -8,3 +8,7 @@ export const a = (a:string)=>{
 }
 
 export let b = "Yousuf"
+
+export const add = (x:number, y: number) => {
+    return x  + y 
+}

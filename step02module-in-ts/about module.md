@@ -15,6 +15,7 @@ export default exampleExport;
 
 **Syntax to import a default export:**
 
+
 ```typescript
 // In another file, where you want to use the default export
 import exampleImport from './ExampleModule';

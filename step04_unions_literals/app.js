@@ -42,5 +42,5 @@ if (yourName) {
     yourName.toUpperCase(); // Ok: string
 }
 //yourName.toUpperCase();//Error: Object is possibly 'undefined'.
-yourName === null || yourName === void 0 ? void 0 : yourName.toUpperCase(); //OK
+yourName?.toUpperCase(); //OK
 let data;
